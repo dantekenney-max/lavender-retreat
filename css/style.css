@@ -175,6 +175,7 @@ p { font-family: var(--font-body); font-weight: 300; line-height: 1.85; }
 .hero-state { font-family: var(--font-body); font-size: 0.72rem; font-weight: 400; letter-spacing: 0.55em; text-transform: uppercase; color: rgba(255,255,255,0.55); margin-bottom: 28px; opacity: 0; animation: fadeUp 1s ease 1.2s forwards; }
 .hero-tagline { font-family: var(--font-accent); font-size: clamp(1.15rem, 2.5vw, 1.75rem); font-weight: 300; font-style: italic; color: rgba(255,255,255,0.85); line-height: 1.5; margin-bottom: 48px; opacity: 0; animation: fadeUp 1s ease 1.4s forwards; }
 .hero-ctas { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; opacity: 0; animation: fadeUp 1s ease 1.6s forwards; }
+.hero-coming-soon { font-family: var(--font-body); font-size: clamp(0.95rem, 1.6vw, 1.1rem); font-weight: 500; letter-spacing: 0.32em; text-transform: uppercase; color: var(--gold-light); padding: 18px 38px; border: 1px solid var(--gold); border-radius: 2px; background: rgba(0,0,0,0.25); }
 .hero-scroll { position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%); z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 10px; opacity: 0; animation: fadeUp 1s ease 2.2s forwards; }
 .hero-scroll span { font-family: var(--font-body); font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(255,255,255,0.45); }
 .scroll-line { width: 1px; height: 48px; background: rgba(255,255,255,0.2); position: relative; overflow: hidden; }
